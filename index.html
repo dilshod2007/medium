@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#">
+                <img src="./picture/image 1.svg" alt="logo">
+            </a>
+            <div class="nav__register">
+                <a href="./pages/register.html" class="Register">Log in</a>
+                <a href="./pages/login.html" class="Login">Sign up</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <img src="./picture/image 2.png" alt="heroimg" class="hero__img">
+        </div>
+    </header>
+    <section class="articles">
+        <h1 class="articles__title">All articles</h1>
+        <div class="about">
+            <div class="about__wrapper">
+                <div id="articles"></div>
+            </div>
+        </div>
+    </section> 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>

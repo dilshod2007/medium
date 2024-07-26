@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100..900&family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/Dashboard.css">
+</head>
+
+</head>
+<body>
+
+    <div class="container">
+  <div class="dash">
+<div class="dash__account">
+    <div class="dash__hug">
+  <h2>Dashboard</h2>
+  <div class="user-acc">
+<h3>Ibrokhim Jalalov</h3>
+<p>Author</p>
+  </div>
+
+    </div>
+    <a href="../pages/login.html">Sign Out?</a>
+</div>
+<div class="dash__board">
+    <h2 class="dash__title">Create New Post</h2>
+    <br>
+    <hr>
+    <br>
+    <div class="post">
+  <form id="post-form">
+<label for="title">Post Title</label>
+<br>
+<input class="title" type="text" id="title" required>
+<br>
+<br>
+<div class="inputs">
+    <label for="image"></label>
+<br>
+<input class="image" type="url" id="image" required placeholder="image url">
+<br>
+<br>
+<label for="tags"></label>
+<br>
+<input class="tags" type="text" id="tags" required placeholder="tags">
+</div>
+<br>
+<br>
+
+<label for="">Post Description</label>
+<br>
+<textarea class="description" id="description" cols="30" rows="10" required></textarea>
+<br>
+<br>
+<button class="post-btn" type="submit">Create Post</button>
+  </form>
+    </div>
+</div>
+  </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="../script/Dashboard.js"></script>
+</body>
+
+</html>
